@@ -1,0 +1,49 @@
+.wrapper{
+    padding: 20px;
+    width: 320px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.custom-btn{
+    padding: 7px 16px;   
+}
+
+.body{
+    margin-top: 12px;
+    color: #161823;
+}
+
+.nickname{
+    font-size: 1.8rem;
+}
+
+.name{
+    font-size: 1.4rem;
+    color: #161823bf;
+}
+
+.footer{
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.label{
+    color: #161823bf;
+}
+
+.value ~ .value{
+    margin-left: 20px;
+}
+

@@ -1,0 +1,52 @@
+.wrapper{
+    width: 224px;
+    padding: 20px 0px 26px 8px;
+    margin-left: -18px;
+    position: fixed;
+    overflow-y: auto;
+    height: 95vh;
+
+    &::-webkit-scrollbar{
+        width: 6px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: fit-content;
+    width: 100%;
+    padding: 8px;
+    border-top: 1px solid #e3e3e4;
+}
+
+.footer-label{
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 5px 6px 0 0;
+    color: rgba(22, 24, 35, .5);
+}
+
+.sidebar-login-wrapper{
+    border-top: 1px solid #e3e3e4;
+    padding: 20px 8px 24px; 
+    width: 100%;
+    height: 175px;
+}
+
+.sidebar-login-text{
+    color: #16182380;
+    font-size: 1.6rem;
+}
+
+.sidebar-login-btn{
+    padding: 6px 8px;
+    margin-top: 20px;
+    width: 100%;
+    height: 47px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
